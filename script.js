@@ -1,4 +1,4 @@
-import key from './apiKey.js';
+const key = "10dae132-a500-4933-85b2-38e77be8c2db"
 
 fetch(`https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=${key}`)
   .then(response => {
